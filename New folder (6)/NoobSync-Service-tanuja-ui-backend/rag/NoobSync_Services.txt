@@ -1,0 +1,44 @@
+AgentOps
+AI Consulting & Agentic Automation
+
+We help businesses identify, design, and implement practical AI assistants, AI agents, and AI-powered workflows across sales, support, HR, operations, and internal knowledge systems.
+
+WorkflowOps
+Business Workflow Automation
+
+We automate manual business processes across forms, emails, CRMs, spreadsheets, dashboards, notifications, approvals, and internal workflows.
+
+ConnectOps
+Zoho & WhatsApp Business Automation
+
+We help Indian SMEs and growing businesses set up Zoho, WhatsApp Business workflows, CRM automation, lead management, customer updates, and operational communication systems.
+
+LaunchOps
+Cloud, DevOps & App Deployment
+
+We deploy, configure, and maintain web applications, cloud servers, databases, CI/CD pipelines, domains, SSL, backups, monitoring, and production environments.
+
+MoveOps
+Cloud, App & Data Migration
+
+We migrate websites, applications, databases, servers, cloud workloads, email systems, CRMs, and business tools with planning, testing, cutover, rollback, and post-migration support.
+
+InfraOps
+Infrastructure Management
+
+We manage servers, cloud resources, backups, updates, monitoring, uptime, storage, performance, and operational reliability for growing businesses.
+
+CloudSave
+Cloud Cost & Storage Optimization
+
+We review cloud usage, storage, backups, logs, snapshots, and resource allocation to reduce waste and improve cost efficiency.
+
+SecurePipeline
+DevSecOps & MLOps
+
+We help software and AI teams build secure delivery pipelines, automate releases, manage AI deployments, and improve operational readiness.
+
+TalentOps
+Technical Staffing & Delivery Support
+
+We provide skilled technology professionals and project-based delivery support across software engineering, cloud, DevOps, automation, AI, QA, and infrastructure.

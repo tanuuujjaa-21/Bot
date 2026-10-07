@@ -1,0 +1,893 @@
+Problem Statements for 
+Hackathon HackNow - 2026
+
+The ServiceNow components and design elements outlined in each problem statement are provided purely as a starting point and 
+source of inspiration - not as a mandatory blueprint. They represent one possible approach to solving the problem using the 
+ServiceNow platform.
+You are completely free and actively encouraged to explore the full breadth of the ServiceNow platform and bring in any modules,
+applications, technical components, integrations, or Now Platform capabilities that you believe best solve the problem. Whether that 
+means leveraging Now Assist (GenAI), RPA (Robotic Process Automation), Virtual Agent, Predictive Intelligence, Process Automation 
+Designer, Integration Hub, App Engine Studio, or any other ServiceNow capability not mentioned in the problem statement - go for it.
+The best solutions will be those that demonstrate creativity, technical depth, real-world impact, and innovative use of the ServiceNow 
+platform - not those that simply check off the listed elements. Think beyond the list. The elements are a suggestion; your imagination 
+is the only real constraint.
+A Note to Hackathon Participants
+
+Background:
+Universities enroll thousands of international students whose visa status, study authorization, and work permissions must be carefully managed to 
+maintain SEVIS compliance with the U.S. Department of Homeland Security. International student advisors manage complex cases involving I-20 
+extensions, OPT/CPT work authorization requests, travel signatures, status violations, and reporting requirements. These are currently managed 
+through email, PDF forms, and a combination of SEVIS access and spreadsheets. Students are often confused about requirements and
+deadlines, and advisors manage large caseloads without structured workflow tools.
+Objective:
+Design a ServiceNow international student services management platform that provides students with a clear portal for all visa and authorization 
+requests, automates document review and advisor workflows, manages regulatory reporting deadlines, and gives DSO (Designated School 
+Official) teams visibility into compliance status across all active international students.
+Elements to include in Design:
+•Student Services Portal: Guided request forms for I-20 extensions, OPT/CPT, travel signatures, and status inquiries
+•Advisor Case Management: Case workspace with student immigration history, document storage, and action tracking
+•Regulatory Deadline Management: Automated tracking of OPT application windows, travel signature expiry, and SEVIS reporting dates
+•Document Review Workflows: Structured intake, review, and issuance workflows for immigration documents
+•Notifications: Deadline reminders for students and advisors, request status updates, and required action alerts
+•Knowledge Base: Comprehensive guides on visa types, work authorization, travel requirements, and enrollment maintenance
+•Compliance Dashboard: Active international student status overview, upcoming deadlines, pending requests, and advisor workload
+•ServiceNow AI Agents
+International Student Services & Visa Compliance Management
+Legal Service Delivery Legal & Immigration
+Legend:
+Technology Industry / Sector
+
+Background:
+Local government offices receive thousands of citizen requests annually for building permits, zoning inquiries, noise complaints, pothole reports, 
+business license applications, and public records requests. These are currently handled through phone calls, paper forms, emails to individual 
+departments, and disconnected web forms, leading to lost requests, long processing times, inconsistent communications, and no transparency for 
+citizens tracking their request status. Municipal staff in different departments use different systems, making inter-departmental coordination for 
+complex requests difficult and time-consuming.
+Objective:
+Design a ServiceNow citizen services portal for local government that gives residents a single digital channel to submit all service requests, track 
+real-time status, and receive proactive updates. Internally, the system should route requests intelligently to the appropriate departments, enforce 
+SLAs, facilitate inter-departmental collaboration on complex requests, and provide city leadership with performance dashboards.
+Elements to include in Design:
+•Citizen Service Portal: Mobile-responsive self-service interface for submitting and tracking all service requests
+•Service Catalog: Structured forms for permits, complaints, inspections, license applications, and public records requests
+•Intelligent Routing: Business rules to automatically assign requests to the correct department and staff
+•Inter-Departmental Collaboration: Shared case workspace for requests requiring multiple department coordination
+•SLA Management: Response time commitments with automated escalation for overdue items
+•Notifications: Proactive status updates to citizens at each processing milestone via email and SMS
+•City Leadership Dashboard: Service volume by type, average processing times, SLA compliance, and department performance
+•Generative AI Controller
+•Virtual Agent Designer
+•Custom Tables
+Citizen Services Portal for Local Government – Permit & Complaint Management
+CSM, Government Digital Services Government / Public Sector
+Legend:
+Technology Industry / Sector
+
+Background:
+Community organizations supporting newly arrived refugees and immigrants navigate complex service ecosystems including housing assistance, 
+employment services, language programs, healthcare enrollment, legal aid, and school enrollment. Case managers juggle large client caseloads 
+with paper files, email communications, and disconnected service referral processes. Clients have language barriers and no digital tools to 
+understand available services or track their case progress. Service coordination between multiple agencies serving the same family is entirely 
+manual, leading to duplication, gaps in care, and client frustration.
+Objective:
+Design a ServiceNow refugee and immigrant services case management platform that enables community organizations to manage client intake, 
+coordinate multi-agency service delivery, track case progress and milestones, manage compliance with resettlement agency reporting 
+requirements, and measure outcomes across the service population.
+Elements to include in Design:
+•Multilingual Client Portal: Service discovery interface with translation support for common languages
+•Client Intake & Assessment: Structured intake forms capturing household composition, immediate needs, and service eligibility
+•Integrated Case Management: Case workspace tracking active services, appointments, document status, and case notes
+•Multi-Agency Referral Management: Structured electronic referrals with status tracking between partner organizations
+•Document Management: Secure storage for vital documents with controlled case manager access
+•Milestone Tracking: Integration of resettlement milestone requirements with automated reporting to sponsoring agencies
+•Outcomes Dashboard: Population-level metrics on service utilization, housing stability, employment rates, and self-sufficiency progress
+•Agentic Workflow: Integrated Case Management
+Refugee & Immigrant Services Navigation & Case Management Platform
+CSM, Service Portal Nonprofit / Government / Social 
+Services
+Legend:
+Technology Industry / Sector
+
+Background:
+Universities run extensive K-12 outreach programs including STEM workshops, tutoring programs, campus visit days, dual enrollment, and 
+teacher professional development. These programs are managed by multiple colleges and departments independently, with duplicated
+administrative overhead, inconsistent program quality, and no university-wide view of outreach activity and impact. School district partners 
+struggle to navigate the university's fragmented program offerings and coordinate logistics for multiple programs simultaneously. There is no 
+systematic way to collect and analyze impact data for grant reporting and institutional accountability.
+Objective:
+Develop a ServiceNow K-12 educational outreach management platform that creates a unified program catalog, streamlines school partnership 
+coordination, manages program registrations and scheduling, tracks student and educator participation, and automates impact reporting for grant 
+compliance and institutional leadership.
+Elements to include in Design:
+•Partner School Portal: School district interface for browsing programs, submitting participation requests, and tracking logistics
+•Program Catalog Management: Central registry of all outreach programs across university departments with eligibility requirements
+•Registration & Scheduling Workflows: Automated confirmation, scheduling, and logistics coordination for program participants
+•Facilitator Management: University facilitator assignment, availability tracking, and preparation task workflows
+•Participant Tracking: K-12 student and educator engagement records across all university programs
+•Impact Surveys: Pre and post program surveys for measuring learning outcomes and satisfaction
+•Grant Reporting Dashboard: Participation data aggregation, demographic analytics, and outcome metrics for funder reports
+•NowAssist Virtual Agent
+K-12 School Partnership & Educational Outreach Program Management
+Service Portal, Flow Designer, Custom 
+application Community Service
+Legend:
+Technology Industry / Sector
+
+Background:
+Nonprofit organizations and community service programs rely heavily on volunteers but struggle to recruit, schedule, manage, and recognize them 
+effectively. Volunteer coordinators juggle spreadsheets, email chains, and manual phone follow-ups to match volunteer availability with service 
+opportunities, track hours, and maintain compliance with background check requirements. Volunteers themselves have no visibility into available 
+opportunities, their personal contribution history, or recognition for service milestones. This disorganized approach results in high volunteer churn, 
+unfilled service slots, and administrative overload for nonprofit staff.
+Objective:
+Build a ServiceNow-based volunteer management platform that enables nonprofits to recruit volunteers digitally, manage service opportunities, 
+automate scheduling and communications, track volunteer hours and certifications, and recognize contributions. The platform should reduce 
+administrative burden, improve volunteer retention, and provide leadership with data to measure community impact.
+Elements to include in Design:
+•Service Portal: Volunteer self-service hub for browsing opportunities, registering, and tracking hours
+•Custom Tables: Volunteer profiles with skills, availability, certifications, background check status, and service history
+•Scheduling Workflows: Automated matching and assignment of volunteers to service opportunities based on availability and skills
+•Notifications: Shift reminders, scheduling confirmations, and follow-up thank-you messages post-service
+•Surveys: Post-service volunteer feedback to improve program quality and satisfaction
+•Recognition Module: Automated milestone awards and certificates based on cumulative service hours
+•Generative AI Controller
+•Virtual Agent Designer
+•Dashboards: Volunteer program metrics including hours served, participation rates, retention, and community impact
+Volunteer Management & Community Engagement Platform for Nonprofits
+Service Portal, Flow Designer, Custom 
+application Community Service
+Legend:
+Technology Industry / Sector
+
+Background:
+Human Resources departments at universities handle thousands of inquiries and transactions annually — including leave requests, benefits 
+questions, policy clarifications, performance issue cases, and grievance filings. These interactions currently occur via email, phone, and walk-in 
+visits with no case tracking, inconsistent response quality, and no self-service options. HR staff spend significant time answering repetitive 
+questions that could be deflected by a knowledge base. Faculty and staff have no visibility into the status of their HR requests, and HR leadership 
+lacks data to measure team performance or identify policy areas needing clarification.
+Objective:
+Implement a ServiceNow HR Service Delivery (HRSD) solution for a university HR department that provides employees with a self-service portal 
+for common HR needs, structures case management for complex inquiries, automates leave request workflows, and gives HR leadership visibility 
+into team performance and service trends.
+Elements to include in Design:
+•HR Service Portal: Employee-facing hub for submitting HR requests, accessing policies, and tracking case status
+•HR Case Management: Structured case types for leave requests, benefits inquiries, policy questions, and grievances
+•Leave Workflows: Automated leave request approval routing to managers with HR oversight and calendar integration
+•Knowledge Base: HR policy library with searchable articles on benefits, leave policies, and employee rights
+•Employee Document Center: Secure access to personal HR documents including pay slips and offer letters
+•Notifications: Status updates, approval decisions, and action reminders throughout case lifecycle
+•NowAssist for HRSD
+•Reporting: HR case volume, resolution times, deflection rates, and top inquiry categories
+Faculty & Staff Leave Management & HR Case Resolution System
+HR Service Delivery (HRSD) Human Resources
+Legend:
+Technology Industry / Sector
+
+Background:
+Large multi-specialty hospital networks face severe fragmentation in coordinating patient care across departments. A cardiac patient undergoing 
+surgery, post-operative monitoring, pharmacy, physiotherapy, and dietician consultations requires dozens of handoffs — each currently managed 
+through phone calls, paper notes, and disconnected EMR messages. Nurses spend up to 35% of their shift on coordination activities rather than 
+direct care. Missed handoffs lead to medication errors, delayed discharges, increased length-of-stay costs, and in the worst cases, adverse patient 
+events. Hospital leadership lacks real-time visibility into bed occupancy, pending orders, and care plan adherence across departments.
+Objective:
+Build a ServiceNow-based clinical care coordination platform that digitizes patient care handoffs, automates task assignments to nursing, 
+pharmacy, radiology, and dietary teams, tracks care plan milestone completion in real time, and provides charge nurses and hospital operations 
+with live dashboards to reduce preventable delays.
+Elements to include in Design:
+•Task Management (sn_hw_task) – Clinical Task Records
+•Flow Designer – Care Handoff Automation
+•Service Portal (sp_portal) – Patient-Facing Care Plan Widget
+•Scripted REST APIs – EMR Integration
+•Business Rules & Escalation Policies
+•Performance Analytics (PA) – Bed Management Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Patient Care Coordination & Clinical Workflow Automation
+App Engine Studio Healthcare
+Legend:
+Technology Industry / Sector
+
+Background:
+Universities are bound by FERPA, GDPR, state privacy laws, and internal data governance policies regarding the collection, storage, sharing, and 
+deletion of student and employee data. Data subject access requests (DSARs), data deletion requests, consent management, and privacy 
+incident reports currently arrive via email with no structured intake, tracking, or deadline enforcement. Privacy officers manage these requests 
+manually, risking regulatory violations, inconsistent responses, and missed statutory deadlines that can result in significant financial and 
+reputational consequences.
+Objective:
+Create a ServiceNow data privacy and FERPA compliance management platform that standardizes intake for all privacy-related requests, 
+automates routing and response workflows, tracks statutory deadlines, manages consent records, and provides privacy leadership with a real-time 
+compliance dashboard.
+Elements to include in Design:
+•Privacy Request Portal: Structured intake forms for DSARs, deletion requests, consent changes, and privacy inquiries
+•Case Management: Privacy case lifecycle tracking from intake through verification, fulfillment, and closure
+•Deadline Automation: Statutory response deadline tracking with escalation alerts for approaching and overdue cases
+•Consent Management Records: Custom tables tracking data subject consent status by processing purpose
+•Privacy Incident Workflow: Structured intake and response process for potential data breaches or unauthorized disclosures
+•Cross-Department Routing: Automated task assignment to data owners across IT, HR, financial aid, and academic departments
+•Compliance Dashboard: Open request volumes, deadline compliance rates, incident trends, and risk indicators
+•ServiceNow AI Agents
+Data Privacy & FERPA Compliance Request Management
+Integrated Risk Management (IRM) Legal & Privacy
+Legend:
+Technology Industry / Sector
+
+Background:
+A national retail chain operating 500+ stores across formats and digital channels faces a growing crisis in customer complaint management. 
+Complaints arrive through 11 different channels — store staff, call centre, email, social media, chatbot, and marketplace seller portals — and are 
+handled by different teams with no unified view. A customer who complains about a defective product purchased online, exchanged in-store, and 
+followed up via social media has their case siloed across three systems. Resolution rates are low, repeat contacts are high, and regional 
+managers have no visibility into store-level complaint trends.
+Objective:
+Design a ServiceNow omnichannel retail operations platform that consolidates customer complaints from all channels into a single case 
+management system, routes cases intelligently to store managers or central teams, enforces resolution SLAs, and provides retail operations 
+leadership with store-level and category-level analytics.
+Elements to include in Design:
+•Customer Service Management (CSM) – Consumer Case
+•CSM Omnichannel Framework – Channel Integrations
+•Assignment Rules & Queues
+•Flow Designer
+•SLA Definitions – Category-Based Targets
+•Surveys – Post-Resolution NPS
+•Performance Analytics –
+•Custom Tables
+•Generative AI ControllerRetail Operations Dashboard
+•Virtual Agent Designer
+Omnichannel Store Operations & Customer Complaint Resolution
+CSM Retail
+Legend:
+Technology Industry / Sector
+
+Background:
+A global pharmaceutical company running Phase II and III clinical trials across 80 investigator sites in 12 countries faces critical challenges in site 
+performance management, protocol deviation tracking, and regulatory submission coordination. Site initiation, monitoring visits, serious adverse 
+event (SAE) reporting, data query resolution, and closeout activities are managed through spreadsheets, email chains, and a legacy EDC system 
+that does not support workflow automation. Protocol deviations go unreported beyond mandated timelines, and the clinical operations team cannot 
+get a real-time view of site performance across the trial portfolio.
+Objective:
+Develop a ServiceNow clinical trial site management platform that standardizes site activation workflows, tracks protocol deviations and corrective 
+actions, manages monitoring visit findings, automates SAE reporting workflows, and provides clinical operations leadership with a real-time trial 
+health dashboard.
+Elements to include in Design:
+•App Engine Studio – Clinical Trial App
+•Flow Designer – Site Activation Milestones
+•Approval Engine – Protocol Deviation Classification
+•Scoped Application REST API – EDC Integration
+•Document Management
+•Notifications & Escalations – SAE Reporting Deadlines
+•Performance Analytics – Trial Health Dashboard
+Clinical Trial Site Management & Regulatory Deviation Tracking
+App Engine Studio Life Sciences
+Legend:
+Technology Industry / Sector
+
+Background:
+Many universities employ thousands of students in roles ranging from library assistants to research aides and dining staff. Managing the 
+onboarding process for these student employees is complex, involving background checks, training completions, payroll enrollment, role-specific 
+orientations, and policy acknowledgments. Currently this process is handled via fragmented spreadsheets, email communications, and manual 
+HR workflows, resulting in delays, incomplete onboarding, compliance gaps, and a poor experience for new student employees who often need to 
+start quickly within an academic semester.
+Objective:
+Build a ServiceNow HR Service Delivery solution specifically designed for student employee onboarding that automates and tracks every step of 
+the process from offer acceptance through first-day readiness. The system should ensure compliance, reduce HR team workload, and give 
+student employees a clear, guided digital experience for completing their onboarding requirements.
+Elements to include in Design:
+•HR Service Portal: Personalized onboarding checklist and task tracker for student employees
+•Onboarding Workflows: Automated task assignments to HR, payroll, IT, and departmental supervisors
+•Document Management: Digital forms for tax documents, policy acknowledgments, and NDAs
+•Service Catalog: Self-service requests for ID cards, system access, parking permits, and uniforms
+•Notifications: Reminders for incomplete tasks with escalation to HR coordinators
+•Reporting Dashboard: HR team view of onboarding completion rates, bottlenecks, and compliance status
+•NowAssist for HRSD and Virtual Agent
+•Knowledge Base: FAQs, policy guides, and orientation materials for new student employees
+Student On-Campus Employment Onboarding & Management Portal
+HRSD & Employee Experience Human Resources
+Legend:
+Technology Industry / Sector
+
+Background:
+A large retail bank processing 50,000 new account applications monthly faces severe operational bottlenecks in customer onboarding and KYC 
+compliance. Applications arrive through branches, mobile app, and third-party aggregators, triggering manual document collection, identity 
+verification, AML screening, and credit assessment processes spread across 6 teams. Incomplete applications sit idle for days without customer 
+notification. KYC re-verification for existing customers is tracked on spreadsheets, creating regulatory risk as reviews lapse undetected.
+Objective:
+Build a ServiceNow-powered retail banking onboarding and KYC compliance management platform that automates document collection, routes 
+applications through verification and approval stages, tracks KYC review cycles, manages SAR filing workflows, and provides compliance 
+leadership with real-time dashboards of onboarding pipeline health and regulatory risk exposure.
+Elements to include in Design:
+•Customer Service Management (CSM) – Account Application Case
+•Service Catalog – Onboarding Request Types
+•Flow Designer – Risk-Based Due Diligence Routing
+•Integrated Risk Management (IRM) – KYC Compliance Register
+•Integration Hub – AML & Identity Verification
+•Scoped Application – SAR Case Management
+•Performance Analytics – Compliance Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Retail Banking Customer Onboarding & KYC Compliance Management
+CSM Finance
+Legend:
+Technology Industry / Sector
+
+Background:
+A large timberland investment management organization managing 2 million acres of working forest across multiple states struggles to coordinate 
+harvest planning, environmental compliance, contractor management, and land asset maintenance across geographically dispersed operations. 
+Harvest plans are managed in GIS tools and spreadsheets with no integration to procurement, contractor scheduling, or regulatory permit tracking. 
+Environmental compliance events are tracked manually by field foresters who have no mobile tools.
+Objective:
+Create a ServiceNow forest operations management platform that digitizes harvest planning workflows, manages environmental compliance 
+events, coordinates contractor scheduling, tracks silviculture prescriptions, and provides regional and executive leadership with a unified 
+operations dashboard accessible from mobile devices in the field.
+Elements to include in Design:
+•App Engine Studio – Forest Operations Scoped App
+•Service Catalog & Flow Designer – Harvest Plan Approval
+•ServiceNow Mobile App – Field Forester App
+•Asset Management – Forest Road Infrastructure
+•Integrated Risk Management (IRM) – Environmental Compliance Register
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Forest Operations Management & Sustainable Harvest Planning
+App Engine Studio Timberlands
+Legend:
+Technology Industry / Sector
+
+Background:
+National and state election commissions managing large-scale elections face enormous operational complexity across voter registration, polling 
+station staffing, ballot logistics, real-time incident management, and results reporting. During election day, thousands of polling stations submit 
+issues through phone calls to overwhelmed command centres. Responses are uncoordinated and untracked, and post-election audit trails are 
+incomplete. Managing the training, credentialing, and deployment of tens of thousands of polling officers is done via spreadsheets and postal 
+communications.
+Objective:
+Build a ServiceNow election operations management platform that digitizes polling officer recruitment and training, manages pre-election logistics, 
+provides a real-time election day incident command centre, and generates comprehensive post-election audit reports for transparency and legal 
+compliance.
+Elements to include in Design:
+•App Engine Studio – Election Operations Scoped App
+•HR Service Delivery (HRSD) – Officer Recruitment & Onboarding
+•Service Portal – Polling Station Readiness Checklist Widget
+•Major Incident Management – Election Day Command Centre
+•Now Mobile – Field Supervisor App
+•Chain-of-Custody Tracking – Integration Hub & QR Codes
+•Performance Analytics – Election Command Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Election Administration & Polling Station Operations Management
+App Engine Studio Elections
+Legend:
+Technology Industry / Sector
+
+Background:
+National statistics bureaus conducting census exercises must deploy tens of thousands of field enumerators to collect household-level 
+demographic data across urban, rural, and remote geographies. Current operations rely on paper questionnaires, manual data entry, and phone-
+based supervision that cannot ensure coverage quality or data integrity. Enumerator performance varies widely — some households are missed, 
+others double-counted — and supervisors have no real-time visibility into coverage progress or data quality issues.
+Objective:
+Develop a ServiceNow-based census operations management platform that manages enumerator recruitment and training, tracks geographic 
+coverage in real time, manages non-response follow-up workflows, handles resident appeals, and provides census bureau leadership with a live 
+operations dashboard showing coverage progress and data quality metrics.
+Elements to include in Design:
+•App Engine Studio – Census Operations Scoped App
+•Now Mobile – Enumerator Field App
+•Flow Designer – Non-Response Follow-Up Automation
+•Data Quality Management – Business Rules & Scripted Validation
+•Service Portal – Resident Appeal Portal
+•Performance Analytics – Coverage Tracking Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+National Census Data Collection & Field Enumerator Management
+App Engine Studio Population & Census
+Legend:
+Technology Industry / Sector
+
+Background:
+A major live entertainment company producing 200+ concerts and music festivals annually struggles to coordinate the dozens of operational 
+workstreams required for each event. Production planning, artist rider fulfillment, vendor contracting, venue coordination, ticketing reconciliation, 
+security credentialing, and post-show settlement are managed through email threads and disconnected spreadsheets. Critical tasks are missed —
+artist technical riders go unfulfilled, security contractor certifications expire, and post-event vendor payments are delayed due to missing 
+settlement documentation.
+Objective:
+Design a ServiceNow live event operations platform that provides a structured project management framework for each concert, coordinates 
+fulfillment across production, logistics, security, and hospitality teams, manages vendor and artist contracts, tracks credentialing for all event 
+personnel, and gives operations leadership a consolidated view of event portfolio health.
+Elements to include in Design:
+•App Engine Studio – Event Operations Scoped App
+•Service Catalog – Artist Rider & Vendor Request Items
+•Flow Designer – Post-Event Settlement Automation
+•Credential & Access Management – Custom Table + QR Workflow
+•Vendor Management – Contract Repository with Alerts
+•Performance Analytics – Event Portfolio Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Live Event & Concert Operations Management Platform
+App Engine Studio Concert Management
+Legend:
+Technology Industry / Sector
+
+Background:
+A 1,200-bed multi-speciality hospital operates over 15,000 biomedical and clinical assets — ventilators, infusion pumps, ECG machines, surgical 
+robots, and imaging equipment — across 40 departments. Asset maintenance is coordinated using paper-based preventive maintenance 
+schedules and reactive breakdown calls via phone. Critical equipment downtime during active patient care causes clinical disruptions and patient 
+safety risks. Joint Commission PM compliance rates are tracked manually and frequently miss deadlines.
+Objective:
+Implement a ServiceNow Healthcare Asset Management platform that maintains a complete, auditable inventory of all biomedical assets, 
+automates preventive maintenance scheduling, manages breakdown incident response, tracks warranty and contract coverage, enforces 
+regulatory PM compliance, and provides hospital leadership with a capital planning dashboard.
+Elements to include in Design:
+•IT Asset Management (ITAM) – Biomedical Asset CI Records
+•Planned Maintenance – PM Schedule Automation
+•Incident Management – Equipment Breakdown Reporting
+•Regulatory Compliance Tracking 
+•Contract Management – Warranty & Service Contracts
+•Flow Designer – Loaner Equipment Coordination
+•Performance Analytics – Capital Planning Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Hospital-Wide Biomedical Asset Management & Equipment Lifecycle
+ITAM/CMDB + App Engine Studio Hospital Management
+Legend:
+Technology Industry / Sector
+
+Background:
+A performing arts organization managing a 1,800-seat theatre and a touring division producing 12 major productions annually faces significant 
+operational fragmentation. Production management, technical crew scheduling, costume and props inventory, rehearsal room booking, front-of-
+house operations, and subscription patron services are each managed through separate tools and informal communication. Technical rehearsals 
+run over schedule due to uncommunicated set-change conflicts. Front-of-house staff have no structured process for handling patron complaints or 
+accessibility requests.
+Objective:
+Create a ServiceNow theatre operations platform that centralizes production planning workflows, manages technical crew scheduling, tracks 
+costume and props inventory, handles patron services requests, and provides the artistic and operations director with a single dashboard for all 
+active productions.
+Elements to include in Design:
+•App Engine Studio – Theatre Operations Scoped App
+•Project & Portfolio Management (SPM) – Production Planning
+•Resource Management (SPM) – Crew Scheduling
+•Service Portal – Patron Services Portal
+•Inventory Management – Costume & Props Tracking
+•Performance Analytics – Production Health Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Performing Arts Theatre Operations & Production Management System
+App Engine Studio Theatre Management
+Legend:
+Technology Industry / Sector
+
+Background:
+A large mixed-use shopping and entertainment complex with 350 tenant units, 8 anchor stores, 4 food courts, multiplex cinemas, and a 
+hypermarket receives thousands of daily visitors. Tenant complaints about common area maintenance, requests for additional signage, loading 
+dock reservations, and marketing participation are submitted via phone and email to an understaffed operations team. Visitor complaints — lost 
+and found, safety incidents, parking issues — are handled inconsistently. Mall management has no consolidated view of tenant satisfaction, 
+maintenance backlog, or visitor experience quality.
+Objective:
+Build a ServiceNow shopping mall operations platform that provides tenants with a self-service portal for all service requests and maintenance 
+reporting, manages visitor experience cases, coordinates facility maintenance workflows, tracks tenant lease milestones, and gives mall 
+operations leadership a unified dashboard of property health and tenant satisfaction.
+Elements to include in Design:
+•Customer Service Management (CSM) – Tenant & Visitor Cases
+•Service Portal – Tenant Self-Service Hub
+•Flow Designer – Visitor Lost & Found Workflow
+•Asset Management – Lease Milestone Tracking
+•Surveys – Tenant Satisfaction Surveys
+•Performance Analytics – Mall Operations Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Shopping Mall Operations, Tenant Services & Visitor Experience Management
+CSM Shopping Center
+Legend:
+Technology Industry / Sector
+
+Background:
+University IT and cybersecurity teams face a constant stream of security threats including phishing attacks, malware incidents, unauthorized 
+access attempts, and data breaches. Responding to these incidents requires coordinated action across multiple teams — IT security, network 
+operations, legal, communications, and executive leadership. Currently, incident response is ad hoc with no standardized playbooks, inconsistent 
+communication, and manual threat tracking in spreadsheets. Additionally, vulnerability scan results from tools like Nessus or Qualys are not 
+systematically prioritized or tracked to remediation, leaving known vulnerabilities open for extended periods.
+Objective:
+Design a ServiceNow Security Operations (SecOps) platform for a university that automates security incident response, manages vulnerability 
+remediation, and provides security leadership with real-time risk visibility. The system should enforce consistent response procedures, reduce 
+mean time to detect and respond (MTTR), and ensure that critical vulnerabilities are remediated within defined SLAs.
+Elements to include in Design:
+•Security Incident Response: Structured playbooks for phishing, malware, data breach, and unauthorized access scenarios
+•Vulnerability Response: Automated ingestion and prioritization of vulnerability scan findings with remediation tracking
+•Threat Intelligence: Integration hooks for external threat feeds to enrich incident context
+•Assignment Rules: Auto-routing of security incidents and vulnerabilities to responsible teams based on system/asset ownership
+•SLA Tracking: Response and remediation time targets with escalation for overdue items
+•Dashboards: Security risk posture view showing open incidents, vulnerability age, MTTR trends, and compliance status
+•Post-Incident Reviews: Structured process for documenting lessons learned and updating response playbooks
+Cybersecurity Incident Response & Vulnerability Management Platform
+Security Operations (SecOps) Cybersecurity
+Legend:
+Technology Industry / Sector
+
+Background:
+A global consumer electronics manufacturer handling 2 million warranty and out-of-warranty repair claims annually through 5,000 authorized 
+service centres across 60 countries faces systemic failures in claim management. Customers experience inconsistent eligibility checks, long wait 
+times for parts, and no visibility into repair status. Service centres use paper job cards and phone-based spare parts ordering. Fraudulent warranty 
+claims cost the company millions annually.
+Objective:
+Design a ServiceNow consumer electronics warranty and repair management platform that provides customers with a digital claim portal, 
+automates eligibility verification, manages spare parts ordering, tracks repair job progress, processes service centre reimbursements, and delivers 
+analytics to identify fraud patterns and product quality trends.
+Elements to include in Design:
+•Customer Service Management (CSM) – Warranty Claim Case
+•Service Portal – Customer Warranty Claim Portal
+•Integration Hub – IMEI Verification & Parts Ordering
+•Fraud Detection – Business Rules & Scripted Logic
+•Flow Designer – Service Centre Reimbursement Workflow
+•Customer Surveys & Notifications – Post-Repair NPS
+•Performance Analytics – Warranty Operations Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Consumer Electronics Warranty Claim & Repair Lifecycle Management
+CSM Mobile Warranty
+Legend:
+Technology Industry / Sector
+
+Background:
+A rapid grocery delivery company operating 200 dark stores promising 10-minute delivery across 15 cities handles 150,000 orders daily. 
+Operational failures generate 8,000+ customer complaints daily, handled by a 500-agent contact centre using a basic ticketing tool. Delivery 
+partners have no structured channel to report operational issues. Dark store managers lack tools to track inventory discrepancies, equipment 
+breakdowns, and picker performance issues. Leadership cannot correlate complaint spikes with specific dark stores or delivery zones.
+Objective:
+Build a ServiceNow quick commerce operations management platform that unifies customer complaint resolution, manages delivery partner 
+incident reporting, tracks dark store operational issues, automates refund and reorder workflows, and provides operations leadership with real-
+time store-level and zone-level performance dashboards.
+Elements to include in Design:
+•Customer Service Management (CSM) – Order Complaint Cases
+•Flow Designer – Automated Resolution Engine
+•Service Portal & Now Mobile – Delivery Partner Reporting App
+•App Engine Studio – Dark Store Operations Module
+•Field Service Management (FSM) – Equipment Maintenance Dispatch
+•SLA Definitions & Escalation Policies
+•Performance Analytics – Operations Command Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Dark Store Operations & Last-Mile Delivery Issue Resolution Platform
+CSM Quick Commerce
+Legend:
+Technology Industry / Sector
+
+Background:
+An integrated oil and gas company operating onshore and offshore production assets faces challenges in managing asset integrity, HSE incidents, 
+permit-to-work processes, and regulatory compliance. Corrosion inspection findings, pressure vessel certifications, and pipeline integrity 
+assessments are tracked in paper records. HSE incidents are reported through email with no standardized root cause analysis process. The 
+permit-to-work system is paper-based and prone to concurrent work conflicts that create explosion and toxic gas exposure risks.
+Objective:
+Develop a ServiceNow asset integrity and HSE management platform that digitizes the permit-to-work process, manages integrity inspection 
+findings with risk-ranked remediation tracking, standardizes HSE incident reporting with root cause analysis, enforces regulatory compliance 
+timelines, and provides operations and HSE leadership with a real-time risk dashboard.
+Elements to include in Design:
+•App Engine Studio – Asset Integrity & HSE Scoped App
+•CMDB – Asset Integrity Register
+•Flow Designer – Digital Permit to Work (PTW)
+•Integrated Risk Management (IRM) – Regulatory Compliance Framework
+•Incident Management – HSE Incident Reporting
+•Now Mobile – Field Inspection & Incident Reporting
+•Performance Analytics – Asset Risk & HSE Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Oilfield Asset Integrity & HSE Incident Management Platform
+App Engine Studio Oil & Natural Resources
+Legend:
+Technology Industry / Sector
+
+Background:
+A national environmental protection agency responsible for monitoring industrial emissions, water quality, solid waste management, and EIA 
+approvals across thousands of regulated facilities struggles with fragmented enforcement. Pollution complaints from citizens arrive with no 
+structured triage or field inspection assignment. Regulated facilities submit compliance reports through postal mail. EIA applications queue for 
+months due to manual review coordination. Enforcement actions lack structured legal case tracking, and penalties go uncollected due to missed 
+follow-up.
+Objective:
+Create a ServiceNow environmental compliance and enforcement management platform that digitizes pollution complaint intake, automates field 
+inspection assignment, manages EIA application review workflows, tracks facility compliance reporting, coordinates enforcement case 
+management, and gives agency leadership a real-time environmental risk dashboard.
+Elements to include in Design:
+•App Engine Studio – Environmental Compliance Scoped App
+•Service Portal – Public Citizen Complaint Portal
+•Field Service Management (FSM) – Inspection Dispatch
+•Flow Designer – EIA Multi-Disciplinary Review
+•Integrated Risk Management (IRM) – Facility Compliance Monitoring
+•Legal Service Delivery – Enforcement Case Management
+•Performance Analytics – Environmental Risk Dashboard
+Environmental Regulatory Compliance & Pollution Incident Response
+App Engine Studio Environment
+Legend:
+Technology Industry / Sector
+
+Background:
+University IT departments support thousands of students, faculty, and administrative staff across diverse technology environments including 
+learning management systems, lab computers, Wi-Fi infrastructure, and enterprise applications. Currently, support requests arrive through multiple 
+uncoordinated channels — walk-ins, phone calls, emails — making it difficult to track workloads, measure resolution times, or identify recurring 
+problems. Students experience long wait times and have no visibility into their request status. IT staff lack consolidated tools to manage incidents, 
+access knowledge, or identify patterns for proactive problem resolution.
+Objective:
+Design and implement a ServiceNow ITSM solution tailored for a university IT helpdesk that unifies all support channels, automates ticket routing, 
+enables self-service, and provides comprehensive reporting. The goal is to reduce resolution times, improve student satisfaction, and give IT 
+leadership actionable data to optimize operations and prevent recurring issues.
+Elements to include in Design:
+•Incident Management: Full lifecycle management for IT issues from intake to closure
+•Service Catalog: Student-facing menu of IT services (software requests, account access, device support)
+•Self-Service Portal: Search-enabled interface for students to submit and track tickets independently
+•Knowledge Base: Searchable articles for common issues (password resets, VPN setup, printing)
+•Problem Management: Root cause analysis module to identify and eliminate recurring incidents
+•SLA Management: Service level tracking with automated escalations for breached tickets
+•NowAssist for ITSM and Virtual Agent
+•Reporting & Dashboards: Metrics on volume, resolution times, satisfaction scores, and top issue categories
+University IT Helpdesk Modernization & Student Tech Support
+IT Service Management Education/Technology
+Legend:
+Technology Industry / Sector
+
+Background:
+A global pharmaceutical company marketing 40+ products across 100 countries is legally required to collect, assess, and report adverse drug 
+reactions (ADRs) to health authorities within strict timelines — 7 days for fatal/life-threatening events, 15 days for other serious cases. ADR cases 
+arrive through multiple channels and are manually triaged in an email-based intake system. Case processing is slow, data fields are inconsistently 
+populated, and regulatory submission deadlines are tracked on spreadsheets. Missed reporting timelines have resulted in warning letters from the 
+FDA and EMA.
+Objective:
+Build a ServiceNow pharmacovigilance case management platform that provides structured, channel-agnostic ADR intake, automates case triage 
+and medical coding workflows, enforces regulatory reporting timelines with real-time deadline tracking, manages signal detection follow-up, and 
+delivers compliance dashboards for the global drug safety team.
+Elements to include in Design:
+•App Engine Studio – Pharmacovigilance Scoped App
+•Integration Hub – Multi-Channel Case Intake
+•Flow Designer – Regulatory Deadline Enforcement
+•Approval Engine – Medical Officer Case Assessment
+•Virtual Agent (Now Assist) – Internal Case Query Resolution
+•Scripted REST API – E2B Regulatory Submission
+•Performance Analytics – Global Safety Compliance Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Pharmacovigilance & Adverse Drug Reaction Case Management
+App Engine Studio Life Sciences
+Legend:
+Technology Industry / Sector
+
+Background:
+A large general insurance company processing 500,000 claims annually across motor, health, property, and liability lines faces a claims lifecycle 
+rife with inefficiency and fraud. Claims arrive through agents, direct portal, and third-party aggregators and are routed manually to surveyors, legal 
+teams, and settlement desks. Motor claims face average cycle times of 28 days. Fraud detection is entirely manual and retrospective. Customer 
+communication is minimal until the settlement stage, generating thousands of avoidable inbound status calls.
+Objective:
+Design a ServiceNow insurance claims management platform that automates claims intake and routing, manages surveyor assignment and field 
+inspection, tracks repair and replacement workflows, enforces SLA-driven settlement timelines, integrates fraud detection triggers, and provides 
+claims leadership with a real-time performance dashboard.
+Elements to include in Design:
+•Customer Service Management (CSM) – Insurance Claim Case
+•Service Portal – Digital FNOL Submission
+•Field Service Management (FSM) – Surveyor Dispatch
+•Flow Designer – Fraud Detection & Fast-Track Routing
+•Approval Engine – Settlement Authority Limits
+•Notifications & Virtual Agent – Customer Self-Service Status
+•Performance Analytics – Claims Operations Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Insurance Claims Processing & Fraud Investigation Management
+CSM Finance
+Legend:
+Technology Industry / Sector
+
+Background:
+A state public health department responsible for disease surveillance, outbreak investigation, and immunization program management across a 
+population of 20 million struggles with fragmented data and slow response times. Notifiable disease reports from hospitals, labs, and clinics arrive 
+via fax, phone, and email with inconsistent data quality. Outbreak investigation teams coordinate through phone calls and email with no structured 
+case assignment. Contact tracing during outbreak events is managed on spreadsheets that cannot scale during peaks.
+Objective:
+Build a ServiceNow public health management platform that standardizes notifiable disease case intake, automates outbreak investigation 
+workflows, manages contact tracing at scale, coordinates immunization campaign logistics, tracks AEFI reports, and provides public health 
+leadership with a real-time epidemiological surveillance dashboard.
+Elements to include in Design:
+•App Engine Studio – Public Health Scoped App
+•Integration Hub – Lab & Facility Reporting
+•Flow Designer – Outbreak Investigation Workflow
+•Contact Tracing Management – Scalable Case Assignment
+•Mobile App (Now Mobile) – Field Epidemiology & Immunization
+•Planned Maintenance – Immunization Campaign Scheduling
+•Performance Analytics – Epidemiological Surveillance Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Public Health Disease Surveillance & Outbreak Response Management
+App Engine Studio Healthcare
+Legend:
+Technology Industry / Sector
+
+Background:
+A hypermarket chain operating 180 stores with fresh produce, bakery, deli, seafood, and ready-to-eat departments must maintain rigorous food 
+safety standards while managing complex daily operations across thousands of SKUs. Food safety compliance — temperature logging, shelf-life 
+checks, cleaning schedules, pest control — is managed through paper checklists. Equipment failures are reported via phone with no structured 
+maintenance tracking. Recall management for affected products relies on manual store communications and takes hours, creating regulatory and 
+reputational risk.
+Objective:
+Develop a ServiceNow supermarket operations and food safety management platform that digitizes daily compliance checklists, manages 
+equipment maintenance and breakdown response, automates product recall workflows, tracks supplier quality issues, and provides food safety 
+and operations leadership with chain-wide compliance dashboards.
+Elements to include in Design:
+•App Engine Studio – Food Safety Scoped App
+•Now Mobile – Digital Food Safety Checklist Completion
+•Flow Designer – Product Recall Broadcast Workflow
+•Field Service Management (FSM) – Equipment Maintenance & Breakdown
+•Supplier Quality Management – Workflow & Corrective Action
+•Surveys & Audit Management – Internal Food Safety Audits
+•Performance Analytics – Food Safety Compliance Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Supermarket & Hypermarket Store Operations & Food Safety Management
+App Engine Studio Shopping Center
+Legend:
+Technology Industry / Sector
+
+Background:
+A large open-cut and underground mining operation employing 4,000 direct employees and 3,000 contractor personnel across 6 mine sites faces 
+challenges in contractor safety management, equipment availability, shift production reporting, and regulatory compliance. Contractor pre-
+qualification, induction tracking, and site access control rely on paper records. Production shift reports are compiled manually with 4-hour delays. 
+Ground control events, near misses, and equipment damage incidents lack structured classification and investigation.
+Objective:
+Create a ServiceNow mining operations management platform that digitizes contractor safety pre-qualification and induction, manages site access 
+control, automates production shift reporting and variance alerts, standardizes safety incident investigation workflows, and provides mine site 
+general managers and executive leadership with real-time production and safety dashboards.
+Elements to include in Design:
+•App Engine Studio – Mining Operations Scoped App
+•Service Portal – Contractor Pre-Qualification Portal
+•HR Service Delivery (HRSD) – Induction Onboarding Checklist
+•Flow Designer – Automated Shift Production Reporting
+•Incident Management – Safety Incident Investigation
+•Now Mobile – Ground Control Event Management
+•Performance Analytics – Mine Operations Command Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Mining Operations – Contractor Safety & Production Performance Management
+App Engine Studio Oil & Natural Resources
+Legend:
+Technology Industry / Sector
+
+Background:
+A major international airport hub handling 60 million passengers annually operates across landside and airside zones with thousands of critical 
+assets — runway lighting systems, jet bridges, baggage handling equipment, and fire suppression systems. Maintenance teams manage work
+orders through paper job cards and phone calls. Planned preventive maintenance schedules for safety-critical airside assets are tracked on 
+spreadsheets. When a critical asset like a jet bridge fails, there is no structured rapid-response dispatch system, causing flight delays. Safety 
+incidents — FOD discoveries, fuel spills, apron vehicle incidents — are reported via radio with no structured investigation workflow.
+Objective:
+Build a ServiceNow Airport Maintenance and Safety Management platform that digitizes all planned and reactive maintenance for airside and 
+landside assets, enforces CAA-mandated maintenance compliance intervals, provides rapid-response dispatch for critical airside failures, 
+manages FOD and safety incident investigations, coordinates multi-party contractor work permissions, and delivers operational dashboards for 
+Airport Operations Centre leadership.
+Elements to include in Design:
+•App Engine Studio – Airport Maintenance Scoped App
+•Planned Maintenance – CAA Compliance Scheduling
+•Flow Designer
+•Safety Incident & FOD Management – Incident Management
+•Contractor Management – Pre-Authorization & Permit Tracking
+•Performance Analytics – Airport Operations Centre Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Airport Infrastructure Maintenance & Airside Operations Safety Management
+App Engine Studio Airport Maintenance
+Legend:
+Technology Industry / Sector
+
+Background:
+A metropolitan transport authority managing a city of 5 million residents coordinates road traffic operations, public bus and rail network 
+management, traffic signal infrastructure, and emergency incident response across 12,000 km of road network and 400 public transport routes. 
+Traffic incidents are reported through a fragmented system with no unified incident log. When a major road accident blocks a key arterial route, 
+there is no structured process to simultaneously reroute bus routes, divert highway traffic, notify the public, dispatch maintenance crews, and 
+coordinate with police and ambulance services.
+Objective:
+Develop a ServiceNow Urban Traffic and Transport Operations Management platform that provides the Traffic Management Centre with a unified 
+incident command workspace, automates multi-agency coordination workflows for major traffic events, manages public transport disruption 
+response, tracks traffic signal infrastructure maintenance, enables citizen incident reporting, and delivers a real-time operational dashboard for the 
+Transport Commissioner.
+Elements to include in Design:
+•App Engine Studio – Transport Operations Scoped App
+•Major Incident Management – TMC Command Workspace
+•Flow Designer – Multi-Agency Coordination Automation
+•Service Portal – Citizen Traffic Incident Reporting
+•CMDB & Planned Maintenance – Traffic Signal Infrastructure Management
+•Now Mobile – Field Officer & Maintenance App
+•Performance Analytics – Transport Commissioner Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Urban Traffic Incident Management & Public Transport Operations Coordination
+App Engine Studio Transport & Traffic Mgmt
+Legend:
+Technology Industry / Sector
+
+Background:
+A large food and beverage conglomerate operating across farming, processing, cold chain logistics, distribution, and retail supply faces critical 
+challenges in food safety traceability, supplier quality management, and product recall execution. The company sources raw materials from 800+ 
+farms and ingredient suppliers across 30 countries and distributes to 45,000 retail points. When a food safety alert occurs, the company's ability to 
+execute a targeted recall is severely limited — traceability from farm to shelf requires manual cross-referencing of production batch records, 
+quality inspection reports, cold chain temperature logs, and retail distribution records — a process that takes 72+ hours when regulators require 
+action within 24 hours.
+Objective:
+Build a ServiceNow Food Supply Chain Traceability and Quality Management platform that creates a unified batch traceability record linking farm 
+inputs through production to retail distribution, automates supplier quality incident and corrective action management, orchestrates rapid multi-tier 
+product recall workflows, enforces cold chain compliance monitoring, and delivers supply chain risk and quality analytics to the Chief Food Safety 
+Officer.
+Elements to include in Design:
+•App Engine Studio – Food Supply Chain Scoped App
+•Integration Hub – ERP, WMS & Cold Chain Data Integration
+•Flow Designer – Rapid Recall Orchestration
+•Supplier Quality Management – Corrective Action Workflow
+•Supplier Risk Scoring – Scripted Business Rules & PA
+•Cold Chain Compliance – IoT Integration & Incident Management
+•Performance Analytics – Food Safety & Supply Chain Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+End-to-End Food Supply Chain Traceability, Quality & Recall Management
+App Engine Studio Food Supply Chain
+Legend:
+Technology Industry / Sector
+
+Background:
+A luxury hotel group operating 35 five-star properties across 20 countries with an average of 450 rooms per property faces significant operational 
+fragmentation in guest experience delivery, facilities maintenance, and inter-department service coordination. Each hotel runs as an operational 
+silo with different tools for housekeeping, maintenance request tracking, guest complaint handling, concierge service coordination, and vendor 
+management. Guests expect seamless, proactive service — yet guest requests are communicated to housekeeping via radio, maintenance issues 
+are written on paper, and complaints reach different staff members with no visibility into prior history.
+Objective:
+Design a ServiceNow Luxury Hotel Operations Management platform that provides a unified guest service request and complaint management 
+system, automates housekeeping and engineering task dispatch, manages preventive maintenance for all hotel assets with regulatory compliance 
+tracking, coordinates vendor service delivery, enables cross-property operational benchmarking, and gives General Managers a real-time property 
+health dashboard.
+Elements to include in Design:
+•App Engine Studio – Hotel Operations Scoped App
+•Service Portal – Guest-Facing Digital Concierge
+•Flow Designer – Intelligent Task Dispatch & Escalation
+•Customer Service Management (CSM) – Guest Complaint Case Management
+•CMDB & Planned Maintenance – Hotel Asset Lifecycle
+•Vendor & Contractor Management – Delivery Confirmation Workflow
+•Performance Analytics – Property Operations Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+Luxury Hotel Operations Management, Guest Services & Facilities Maintenance
+App Engine Studio Hotel Management
+Legend:
+Technology Industry / Sector
+
+Background:
+A government-run National School Meals Programme provides daily nutritious meals to 8 million school children across 40,000 schools. The 
+programme operates through a network of 200 regional catering contractors and 1,500 local kitchen operators. Kitchen operators receive food 
+commodities by truck with no structured delivery confirmation or quality inspection process — short-weight deliveries and diversion of commodities 
+are known issues with no systematic detection. Meal quality and nutrition compliance are monitored through surprise visits by district nutrition 
+inspectors who complete paper forms that take weeks to aggregate. Complaints from headteachers and parents are submitted informally with no 
+tracking or resolution accountability.
+Objective:
+Build a ServiceNow National School Meals Programme management platform that digitizes commodity delivery verification, automates kitchen 
+quality inspection workflows, manages complaint and foodborne illness incident response, tracks supplier non-conformances with corrective 
+actions, enables headteacher and parent feedback, and provides the Programme Director and state nutrition officials with a real-time compliance 
+and quality dashboard to improve accountability and reduce programme leakage.
+Elements to include in Design:
+•App Engine Studio – School Meals Programme Scoped App
+•Now Mobile – Kitchen Operator Delivery Confirmation App
+•Flow Designer – Nutrition Inspector Workflow & Scheduling
+•Service Portal – Headteacher & Parent Feedback Portal
+•Incident Management & Flow Designer – Foodborne Illness Response
+•Supplier Non-Conformance & CAPA – Corrective Action Workflow
+•Performance Analytics – Programme Director & State Dashboard
+•Custom Tables
+•Generative AI Controller
+•Virtual Agent Designer
+National School Meals Programme – Supply, Quality & Nutrition Compliance 
+Management
+App Engine Studio Food Supply Chain
+Legend:
+Technology Industry / Sector

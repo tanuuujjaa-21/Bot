@@ -1,0 +1,136 @@
+1. INTRODUCTION TO PCA
+PCA (Principal Component Analysis) is an unsupervised machine learning technique used for Dimensionality
+Reduction. 
+GOAL:
+Transform a high-dimensional dataset into a lower-dimensional space while retaining the most important information (maximum
+variance). 
+Why PCA?
+Reduces complexity
+Removes redundancy
+Improves visualization
+Speeds up training
+Helps to reduce overfitting
+• 
+• 
+• 
+• 
+• 
+X₁
+X₂
+PC1
+PC2
+Projectdataonnewaxes(PC1,PC2)
+1
+
+2. CURSE OF DIMENSIONALITY
+As the number of features (dimensions) increases, model performance may start to degrade. 
+Example:
+Model # Features Used Accuracy (Performance)
+M1 3  Accuracy₁
+M2 6  Accuracy₂
+M3 15  Accuracy₃
+M4 50  Accuracy₄
+M5 100  Accuracy₅
+M6 500  Accuracy₆
+Observation:
+After a point, adding more features (especially
+irrelevant ones) decreases the accuracy. 
+Why?
+More features → more noise & redundancy →
+model gets "overfed" → overfitting → poor
+generalization. 
+2
+
+3. WHAT DOES PCA DO?
+PCA creates new uncorrelated variables called Principal Components (PCs) which capture the maximum variance in the data. 
+It:
+Finds the directions (axes) of maximum variance.
+Projects data onto these directions.
+We keep the top k components that retain most of the
+information.
+Memory Trick: PCA picks PC1 first, it's the principal direction
+of variance! 
+• 
+• 
+• 
+HighDimensional(3D)
+BeforePCA
+PCA
+PC1
+PC2
+LowerDimensional(2D)
+AfterPCA
+3
+
+4. HOW DOES PCA WORK? (STEPS)
+Standardize the data 
+(mean = 0, variance = 1)
+Compute the Covariance Matrix (Σ) of the data. 
+Compute Eigenvalues and Eigenvectors of Σ. 
+Sort eigenvectors by decreasing eigenvalues. 
+Choose top k eigenvectors (principal components). 
+Transform original data using these k components. 
+Original Data (d features)
+↓
+Standardize
+↓
+Covariance Matrix (Σ)
+↓
+Eigenvalues & Eigenvectors
+↓
+Select Top k PCs
+↓
+Reduced Data (k features)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+4
+
+5. MATHEMATICAL DETAILS
+Given data matrix X ∈ ℝn×d (n samples, d features) 
+1) Standardize:
+Z = (X - μ) / σμ = mean vector , σ = std deviation (for each feature) 
+2) Covariance Matrix:
+Σ = &frac11;n-1 ZTZ Σ ∈ ℝd×d (symmetric) 
+3) Eigen Decomposition:
+Σvi = λivi λi = eigenvalue, vi = eigenvector 
+4) Sort: λ1 ≥ λ2 ≥ ... ≥ λd
+5) Projection (onto top k eigenvectors Vk):
+Zk = Z Vk Zk ∈ ℝn×k (reduced data) 
+λ → variance explained by each component.
+Higher λ means more important
+component.
+5
+
+6. EXPLAINED WITH DIAGRAM (2D EXAMPLE)
+Original Data
+Project
+onto PC1
+→
+After PCA (1D)
+• PC1 captures the maximum variance.
+• PC2 captures the next maximum variance orthogonal to PC1.
+X₁
+X₂
+PC1
+PC2
+PC1
+6
+
+7. SUMMARY / KEY TAKEAWAYS
+✓ PCA is used for dimensionality reduction. 
+✓ It helps to avoid the curse of dimensionality. 
+✓ It transforms data to new uncorrelated axes (principal components). 
+✓ We keep top k components that capture most of the variance. 
+✓ It improves model performance, reduces noise, and simplifies data. 
+QUICK FORMULA RECAP
+Z = (X - μ) / σ (Standardize)
+Σ = &frac11;n-1 ZTZ (Covariance)
+Σvi = λivi (Eigen Decomp.)
+Zk = Z Vk (Projection)
+Remember: Keep components that retain ~ 90-95% of
+total variance. 
+7
